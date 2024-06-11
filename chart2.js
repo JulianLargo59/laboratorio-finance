@@ -3,10 +3,10 @@ var myChart = new Chart(ctx, {
   type: 'doughnut',
 
   data:{
-    labels: ['Academic', 'No-Academic', 'Administration', 'Others'],
+    labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'],
     datasets: [{
-        label: 'Employess',
-        data: [42,12,8,6],
+        label: 'Mes',
+        data: [17, 15, 10, 17, 12, 15, 16],
         backgroundColor: [
             'rgba(41, 155, 91, 1)',
             'rgba(54, 162, 235, 1)',
